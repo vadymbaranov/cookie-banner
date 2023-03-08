@@ -14,10 +14,12 @@ import { trophyImage } from "../assets";
 
 import { ProductsCard } from "../components";
 
+import { CookieModal } from "../components";
+
 export default function HomePage() {
   return (
     <Page narrowWidth>
-      <TitleBar title="App name" primaryAction={null} />
+      <TitleBar title="Cookie banner" primaryAction={null} />
       <Layout>
         <Layout.Section>
           <Card sectioned>
@@ -79,6 +81,9 @@ export default function HomePage() {
         </Layout.Section>
         <Layout.Section>
           <ProductsCard />
+        </Layout.Section>
+        <Layout.Section>
+          <CookieModal />
         </Layout.Section>
       </Layout>
     </Page>

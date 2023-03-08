@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  font-family: 'DM Sans', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+}
+
+.modal__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1272px;
+  width: 100%;
+  height: 164px;
+  border-radius: 2px;
+  border: 1px solid #D9DBE9;
+  box-shadow: 0px 14px 42px rgba(8, 15, 52, 0.06);
+  background-color: #FFFFFF;
+}
+
+.modal__main-group {
+  display: flex;
+  align-items: center;
+  gap: 0 22px;
+}
+
+.modal__cookies--img {
+  margin-left: 48px;
+  height: 68px;
+  width: 68px;
+}
+
+.modal__text-container {
+  width: 609px;
+  height: 60px;
+}
+
+.modal__text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #6F6C90;
+  line-height: 30px;
+}
+
+.modal__cookie-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.cookie__accept {
+  margin-right: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  background-color: #FFC611;
+  height: 54px;
+  width: 193px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 18px;
+  border-radius: 56px;
+  cursor: pointer;
+}
+
+.cookie__icon {
+  height: 14px;
+  width: 14px;
+  margin-right: 6px;
+}
+
+.cookie__decline {
+  margin-right: 36px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: #FFFFFF;
+  color: #170F49;
+  width: 108px;
+  height: 54px;
+  border: 1px solid #EFF0F7;
+  box-shadow: 0px 4px 8px rgba(74, 58, 255, 0.08);
+  border-radius: 56px;
+  cursor: pointer;
+}
+
+.cookie__close {
+  margin-right: 48px;
+  padding: 0;
+  height: 14px;
+  width: 14px;
+  color: #170F49;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.privacy__link {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #FFC611;
+}
+
+.privacy__link:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,8 @@
+.page__container {
+  width: 1440px;
+  height: 1034px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(./Main-bckground.png);
+  background-color: #ffffff;
+}
